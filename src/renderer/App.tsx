@@ -1,11 +1,12 @@
 import { MemoryRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Card } from 'flowbite-react';
+import Pos from './Pages/POS/Pos';
 
 function Hello() {
   return (
     <div className="max-w-sm">
-      <h1>Hello</h1>
+      <Pos></Pos>
     </div>
   );
 }
