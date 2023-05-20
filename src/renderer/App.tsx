@@ -7,6 +7,7 @@ function Hello() {
   return (
     <div className="max-w-sm">
       <Pos></Pos>
+      <h1 className='text-sm text-slate-500'>Hello World</h1>
     </div>
   );
 }
